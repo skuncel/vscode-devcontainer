@@ -2,7 +2,7 @@ name: build latex image
 
 on:
   push:
-    branches: [ feature/image-latex ]
+    branches: [ main ]
 
 env:
   REGISTRY: ghcr.io
