@@ -2,7 +2,7 @@ name: build base image
 
 on:
   push:
-    branches: [ feature/ci-base ]
+    branches: [ main ]
 
 env:
   REGISTRY: ghcr.io
